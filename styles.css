@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    width: 20%;
+    margin: 10px 0px;
+}
+
+img{
+    width: 100%;   
+}
+
+@media (max-width:991px){
+    div{
+        width: 40%;
+    }
+    
+}
+
+@media (max-width:575px){
+    div{
+        width: 60%;
+    }
+    
+}
