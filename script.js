@@ -7,4 +7,4 @@ let daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frida
 let currentDate = new Date();
 let dayOfWeek = currentDate.getDay();
 let currentDayOfWeek = daysOfWeek[dayOfWeek];
-dayOfWeekElement.textContent = currentDayOfWeek;
+dayOfWeekElement.textContent = `Current Day of the Week: ${currentDayOfWeek}`;
